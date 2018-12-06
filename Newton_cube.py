@@ -1,5 +1,9 @@
 #!coding=UTF_8
 import math
+"""
+迭代
+x(n+1) = x(n) - f(x(n))/f'(x(n))
+"""
 
 
 def cube_compution(input):
@@ -17,3 +21,4 @@ if __name__ == '__main__':
     input = 8
     cube_value = cube_compution(input)
     print(cube_value)
+
